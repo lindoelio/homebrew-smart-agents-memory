@@ -28,11 +28,6 @@ class SmartAgentsMemory < Formula
     end
   end
 
-  on_windows do
-    url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-windows-amd64.exe"
-    sha256 "61257a4fa8fdd47187de737af6650d202bdc3774253548fc8d1ff03f74c59c5f"
-  end
-
   def install
     bin.install Dir["smart-agents-memory-*"].first => "smart-agents-memory"
   end
