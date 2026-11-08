@@ -7,30 +7,30 @@ class SmartAgentsMemory < Formula
   on_macos do
     on_arm do
       url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-darwin-arm64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "fcf0a6506b8602f5dc0734da22c0950cafba939d13430e5a0ac75e2af40314b8"
     end
 
     on_intel do
       url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-darwin-amd64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "0e66b224e77f32ac5937eb8f059d2e0f55f167acee6d389c18c719286c363386"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-linux-arm64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "1932ffdc215571bf0fbdc53103cbb933177b2aef885a3e5e4b9ae87a4f59cdc5"
     end
 
     on_intel do
       url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-linux-amd64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "381d73fd22afd0c9fdd62af09c22e89fc6664350edb193c6f3efb016f217d80f"
     end
   end
 
   on_windows do
     url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-windows-amd64.exe"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "61257a4fa8fdd47187de737af6650d202bdc3774253548fc8d1ff03f74c59c5f"
   end
 
   def install
