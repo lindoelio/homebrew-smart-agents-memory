@@ -7,26 +7,30 @@ class SmartAgentsMemory < Formula
   on_macos do
     on_arm do
       url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-darwin-arm64"
-      sha256 "fcf0a6506b8602f5dc0734da22c0950cafba939d13430e5a0ac75e2af40314b8"
+      sha256 "fd04e435449fe26daec23cae572898483c326f0cd9d07afc4797a56d10e18c7f"
     end
 
     on_intel do
       url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-darwin-amd64"
-      sha256 "0e66b224e77f32ac5937eb8f059d2e0f55f167acee6d389c18c719286c363386"
+      sha256 "d5c530e39a3bcabef672c8ac81487b118e602e08ef8c0421ee70b52d96a6e238"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-linux-arm64"
-      sha256 "1932ffdc215571bf0fbdc53103cbb933177b2aef885a3e5e4b9ae87a4f59cdc5"
+      sha256 "e6c1995da76bfd296b07751256abbcfdf77278a4d5924c9ac43cb4eebc2a829e"
     end
 
     on_intel do
       url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.1.0/smart-agents-memory-linux-amd64"
-      sha256 "381d73fd22afd0c9fdd62af09c22e89fc6664350edb193c6f3efb016f217d80f"
+      sha256 "77a1280ebaa6bff19503d23c9958fc35e30e9c683523426467e82f817afd30c9"
     end
   end
+
+  # Homebrew does not run on Windows, and its formula language has no
+  # block for it. The Windows binary is published in the release, for the
+  # people who download it directly.
 
   def install
     bin.install Dir["smart-agents-memory-*"].first => "smart-agents-memory"
