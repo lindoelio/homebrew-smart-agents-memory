@@ -2,29 +2,29 @@ class SmartAgentsMemory < Formula
   desc "Shared memory for AI agents: one corpus, many harnesses."
   homepage "https://github.com/lindoelio/smart-agents-memory"
   license "MIT"
-  version "0.2.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.2.0/smart-agents-memory-darwin-arm64"
-      sha256 "fefacf95163672ab76e9d36ab29882a0d84d0838e81000dea7e031d809aa4730"
+      url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.4.0/smart-agents-memory-darwin-arm64"
+      sha256 "02f7d47f060e508366dad3c7847a00c118416ae4196e75cb056de5bdc628b977"
     end
 
     on_intel do
-      url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.2.0/smart-agents-memory-darwin-amd64"
-      sha256 "dbc1f0fb1b2d407972bb1b8b26368d381af8917bc1b8c53179d4ae0ab9a79168"
+      url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.4.0/smart-agents-memory-darwin-amd64"
+      sha256 "2183d1f29ef3a102ab9a066566ade9c1a241a376dc5fae5d8e91650f13fcb3b8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.2.0/smart-agents-memory-linux-arm64"
-      sha256 "202cd51d0b7031c65418f7a88960ee4604c5e935e5cabf22b38d5bd3b3bbe42c"
+      url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.4.0/smart-agents-memory-linux-arm64"
+      sha256 "cfcfda54c15058ae1caaf21700aeea86460c669f332b0a0e7829b2773b78fd34"
     end
 
     on_intel do
-      url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.2.0/smart-agents-memory-linux-amd64"
-      sha256 "3d8c5c7831fa2c3f1841946965c9df95a78773e603b5f191de12c19f442bdb52"
+      url "https://github.com/lindoelio/smart-agents-memory/releases/download/v0.4.0/smart-agents-memory-linux-amd64"
+      sha256 "0e41117bc489a4e683036e960f717d528a5ff89b626763515c8c00bacbc14ae6"
     end
   end
 
